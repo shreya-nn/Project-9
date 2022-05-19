@@ -3,6 +3,7 @@ function setup() {
   createCanvas(400,400);
   background(51);
   box = createSprite(200,200,30,30);
+  background("yellow");
 
 }
 
@@ -17,12 +18,12 @@ function draw()
   } 
 
   if (keyIsDown(LEFT_ARROW)) {
-    background("blue");
+    background("yellow");
     
   }
  
     if (keyIsDown(UP_ARROW)) {
-    background("yellow");
+    background("blue");
    
   }
 
